@@ -1,0 +1,17 @@
+equation: d_t^alpha u + c u u_x = -nu (-Delta)^(beta/2) u
+type: time
+alpha: 0.8
+beta: 2
+nu: 0.05
+c: 1
+L: 6.28319
+T: 1
+N_solve: 256
+N_saved: 128
+nt: 1600
+frames: 21
+ic_p: 2
+seed: 0
+n_train: 200
+n_test: 50
+dataset: burgers_a0.8_b2_nu0.05.npz
